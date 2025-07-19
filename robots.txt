@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Sitemap location for SEO
+Sitemap: https://mubasharghazi.github.io/sitemap.xml
+
+# SEO optimized crawling
+Crawl-delay: 1
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Allow crawling of important assets
+User-agent: *
+Allow: /assets/
+Allow: /styles.css
+Allow: /script.js
