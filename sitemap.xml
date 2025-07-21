@@ -1,45 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Main Portfolio Page for mubasharghazi.dev -->
     <url>
-        <loc>https://mubasharghazi.github.io/</loc>
-        <lastmod>2025-07-19</lastmod>
+        <loc>https://mubasharghazi.dev/</loc>
+        <lastmod>2025-01-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://mubasharghazi.dev/assets/profile.jpg</image:loc>
+            <image:title>Mubashar Ghazi - Professional Software Engineer Portfolio</image:title>
+            <image:caption>Mubashar Ghazi Portfolio Photo - Software Engineer, AWS Cloud Expert, Data Scientist, AI/ML Developer</image:caption>
+        </image:image>
     </url>
+    
+    <!-- About Section -->
     <url>
-        <loc>https://mubasharghazi.github.io/#about</loc>
-        <lastmod>2025-07-19</lastmod>
+        <loc>https://mubasharghazi.dev/#about</loc>
+        <lastmod>2025-01-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
+    
+    <!-- Experience Section -->
     <url>
-        <loc>https://mubasharghazi.github.io/#experience</loc>
-        <lastmod>2025-07-19</lastmod>
+        <loc>https://mubasharghazi.dev/#experience</loc>
+        <lastmod>2025-01-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    
+    <!-- Projects Section -->
     <url>
-        <loc>https://mubasharghazi.github.io/#projects</loc>
-        <lastmod>2025-01-18</lastmod>
+        <loc>https://mubasharghazi.dev/#projects</loc>
+        <lastmod>2025-01-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
+    
+    <!-- Skills Section -->
     <url>
-        <loc>https://mubasharghazi.github.io/#skills</loc>
-        <lastmod>2025-01-18</lastmod>
+        <loc>https://mubasharghazi.dev/#skills</loc>
+        <lastmod>2025-01-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    
+    <!-- Services Section -->
     <url>
-        <loc>https://mubasharghazi.github.io/#community</loc>
-        <lastmod>2025-01-18</lastmod>
+        <loc>https://mubasharghazi.dev/#services</loc>
+        <lastmod>2025-01-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Community Section -->
+    <url>
+        <loc>https://mubasharghazi.dev/#community</loc>
+        <lastmod>2025-01-26</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.8</priority>
     </url>
+    
+    <!-- Contact Section -->
     <url>
-        <loc>https://mubasharghazi.github.io/#contact</loc>
-        <lastmod>2025-01-18</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
+        <loc>https://mubasharghazi.dev/#contact</loc>
+        <lastmod>2025-01-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
+    
 </urlset>
