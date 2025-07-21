@@ -1,27 +1,58 @@
+# Advanced SEO Robots.txt for mubasharghazi.dev
+# Professional Software Engineer Portfolio - Mubashar Ghazi
+
 User-agent: *
 Allow: /
 
-# Sitemap location for SEO
-Sitemap: https://mubasharghazi.github.io/sitemap.xml
+# Enhanced Sitemap location for mubasharghazi.dev SEO
+Sitemap: https://mubasharghazi.dev/sitemap.xml
 
-# SEO optimized crawling
+# SEO optimized crawling for better Google ranking
 Crawl-delay: 1
 
-# Allow all major search engines
+# Allow all major search engines for maximum visibility
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
 User-agent: DuckDuckBot
 Allow: /
+Crawl-delay: 1
 
-# Allow crawling of important assets
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# Social media crawlers for enhanced sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Allow crawling of important assets for performance SEO
 User-agent: *
 Allow: /assets/
 Allow: /styles.css
 Allow: /script.js
+
+# Professional portfolio domain
+Host: https://mubasharghazi.dev
